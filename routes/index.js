@@ -1,0 +1,17 @@
+const authRoutes = require("./auth.routes")
+const roleRoutes = require("./roles.routes")
+const categoryRoutes = require("./category.routes")
+const brandRoutes = require("./brand.routes")
+const cloudionaryRoutes = require("./cloudinary.routes")
+const productRoutes = require("./product.routes")
+const paymentMethodRoutes = require("./paymentMethod.routes")
+
+module.exports = {
+    authRoutes,
+    roleRoutes,
+    categoryRoutes,
+    brandRoutes,
+    cloudionaryRoutes,
+    productRoutes,
+    paymentMethodRoutes
+}
